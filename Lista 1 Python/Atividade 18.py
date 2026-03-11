@@ -1,10 +1,11 @@
 #Imprimir salário bruto e salário líquido. Considere que o salário líquido é igual ao salário bruto descontando-se 10% de impostos.
 
-h = int(input("Insira a quantidade de horas trabalhadas: "))
-he = int(input("Insira a quantidade de horas extras trabalhadas: "))
-salario2 = h*10 + he*15
+h =float(input("Insira a quantidade de horas normais: "))
+he = float(input("Insira a quantidade de horas extras trabalhadas: "))
 
-desconto = salario2*0.10
-salariol = salario2 - desconto
+salario_bruto= (h * 10) + (he * 15)
 
-print (f"Seu salário bruto é: ",salario2,"e seu salário líquido é: ",salariol)
+salario_líquido = salario_bruto - (salario_bruto * 0.10)
+
+print ("Seu salário bruto é: ",salario_bruto)
+print ("Seu salário líquido é: ",salario_líquido)
