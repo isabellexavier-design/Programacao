@@ -1,4 +1,4 @@
-#Ler quantidade de cada moeda e imprimir o valor total economizado, existem moedas de 1,5,10,25 e 50 centavos, e de 1 real.
+#Ler quantidade de cada moeda e imprimir o valor total economizado, existem moedas de 1,5,10,25 e 50 centavos e de 1 real.
 
 c1= int(input("Insira a quantidade de moedas de 1 centavo: "))
 c5= int(input("Insira a quantidade de moedas de 5 centavos: "))

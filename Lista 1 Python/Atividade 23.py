@@ -1,13 +1,11 @@
 #Ler os dados necessários e calcular a altura do prédio.
 
-altura= float (input("Insira a sua altura: "))
-sombraA=float (input("Insira a sua sombra: "))
-sombraB=float (input("Insira a sombra do prédio: "))
+altura_pessoa = float (input("Digite a sua altura: "))
+sombra_pessoa = float (input("Digite o comprimento da sua sombra: "))
+sombra_predio = float (input("Digite o comprimento da sombra do prédio: "))
 
-total= (altura/sombraB)
+altura_pessoa = (altura_pessoa / sombra_pessoa) * sombra_predio
 
-
-print ("Insira a altura do prédio: " ,total)
-
+print ("A altura do predio é " ,altura_pessoa)
 
 
